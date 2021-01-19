@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/arkadiibasovych/webpack-starter-kit/issues"
   },
-  "homepage": "https://arkadiibasovych.github.io/goit-js-hw-12-countries",
+  "homepage": "https://arkadiibasovych.github.io/conspect-12-13",
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
