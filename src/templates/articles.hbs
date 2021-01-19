@@ -1,7 +1,8 @@
 {{#each this}}
-<li>
+<li class="articles-item">
     <img src="{{urlToImage}}" alt="" width="350">
-    <a href="{{url}}" target="_blank" rel="noopener noreferrer">{{title}} </a>
+    <h2><a href="{{url}}" target="_blank" rel="noopener noreferrer" class="articles-title">{{title}} </a></h2>
+    <p class="artcles-author">author:{{author}}</p>
 
 </li>
 {{/each}}

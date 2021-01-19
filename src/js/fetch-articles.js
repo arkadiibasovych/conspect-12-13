@@ -1,3 +1,17 @@
+import refs from './refs.js';
+
+let pageNumber = 1;
+
+refs.showMoreButton.addEventListener('click', e => {
+    e.preventDefault();
+
+  pageNumber += 1;
+
+    console.log(pageNumber);
+
+})
+
+
 
 const apiKey = '85ca983cef8845c4ab4033de661fe4ed';
 function fetchArticles(searchQuery) {

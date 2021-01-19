@@ -17,3 +17,27 @@ body {
    * CSS image reference example.
    */
 }
+
+.container {
+  display: flexbox;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.js-artciles {
+  list-style: none;
+}
+
+.articles-item {
+  width: 350px;
+  margin: 25px;
+}
+
+.articles-title,
+.artcles-author {
+  text-decoration: none;
+  color: black;
+}
