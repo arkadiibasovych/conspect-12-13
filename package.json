@@ -7,11 +7,11 @@
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
     "build": "webpack --env.mode production --config ./webpack/config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -r https://github.com/arkadiibasovych/conspect-12-13"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arkadiibasovych/webpack-starter-kit.git"
+    "url": "git+https://github.com/arkadiibasovych/conspect-12-13.git"
   },
   "keywords": [],
   "author": "Arkadii Basovych <arkadiybasovich@gmail.com>",

@@ -12,7 +12,7 @@ export default {
     const url = `http://newsapi.org/v2/everything?q=${this.searchQuery}&language=en&pageSize=8&page=${this.page}`;
     const options = {
       headers: {
-        'X-Api-Key': apiKey,
+        'Authorization': apiKey,
       }
     };
     
