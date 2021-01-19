@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -24,6 +25,7 @@ body {
   width: 1700px;
   padding-left: 15px;
   padding-right: 15px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -43,8 +45,67 @@ body {
   color: black;
 }
 
-.js-search-form,
-.button-show-more {
+.js-search-form {
   margin-left: auto;
   margin-right: auto;
+}
+
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-show-more {
+  margin-right: 15px;
+}
+
+.spinner {
+  color: grey;
+  display: flex;
+
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.spinner:after {
+  animation: changeContent 0.8s linear infinite;
+  display: block;
+  content: '⠋';
+  font-size: 80px;
+}
+
+@keyframes changeContent {
+  10% {
+    content: '⠙';
+  }
+  20% {
+    content: '⠹';
+  }
+  30% {
+    content: '⠸';
+  }
+  40% {
+    content: '⠼';
+  }
+  50% {
+    content: '⠴';
+  }
+  60% {
+    content: '⠦';
+  }
+  70% {
+    content: '⠧';
+  }
+  80% {
+    content: '⠇';
+  }
+  90% {
+    content: '⠏';
+  }
+}
+.is-hidden {
+  display: none;
 }

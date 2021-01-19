@@ -51,8 +51,9 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "handlebars": "^4.7.6",
-    "uuid4": "^2.0.2",
+    "infinite-scroll": "^4.0.1",
     "lodash.debounce": "^4.0.8",
-    "n_": "^3.0.0"
+    "n_": "^3.0.0",
+    "uuid4": "^2.0.2"
   }
 }
