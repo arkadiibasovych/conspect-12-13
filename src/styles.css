@@ -19,8 +19,9 @@ body {
 }
 
 .container {
-  display: flexbox;
-  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1700px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -40,4 +41,10 @@ body {
 .artcles-author {
   text-decoration: none;
   color: black;
+}
+
+.js-search-form,
+.button-show-more {
+  margin-left: auto;
+  margin-right: auto;
 }
